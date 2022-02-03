@@ -18,12 +18,32 @@ body{
     overflow: scroll;
 }
 
+/*.week1-flex{
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    height: 1920px;
+    width: 100%;
+    top: 140px;
+    right: 50px;
+}
+
+.week1-box div h3{
+    position: absolute;
+    height: 1920px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    top: 800px;
+    right: 50px;
+} */
+
 .week1{
     position: absolute;
+    /*display: flexbox; ?? */
     height: 60px;
     width: 500px;
     border-radius: 90px;
-    background-color: #C4C4C4;
+    background-color: #ffff;
     top: 140px;
     right: 50px;
 }
@@ -76,12 +96,21 @@ h1{
 
 h2{
     font-family: monospace;
-    font-weight: normal;
-    text-align: center;
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
     top: 100px;
+    left: 100px;
+    text-align: center;
 }
 
+h3{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+}
 
 h4{
     position: fixed;
