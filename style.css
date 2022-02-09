@@ -10,6 +10,18 @@ body{
     top: 0px;
     background: linear-gradient(90deg, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
     padding: 0px;
+    
+}
+
+.core2interaction{
+    position: absolute;
+    display: block;
+    font-family: monospace;
+    font-weight: normal;
+    text-align: center;
+    font-size: 2rem;
+    left: 420px;
+    padding-top: 15px;
 }
 
 .chat{
@@ -44,7 +56,7 @@ body{
     width: 500px;
     border-radius: 90px;
     background-color: #ffff;
-    top: 140px;
+    top: 100px;
     right: 50px;
 }
 
@@ -54,7 +66,7 @@ body{
     width: 500px;
     border-radius: 90px;
     background-color: #C779D0;
-    top: 240px;
+    top: 180px;
     right: 50px;
 }
 
@@ -64,7 +76,7 @@ body{
     width: 500px;
     border-radius: 90px;
     background-color: #FEAC5E;
-    top: 340px;
+    top: 260px;
     right: 50px;
 }
 
@@ -74,12 +86,13 @@ body{
     width: 500px;
     border-radius: 90px;
     background-color: #4BC0C8;
-    top: 440px;
+    top: 340px;
     right: 50px;
 }
 
 .bottom{
     position: fixed;
+    display: block;
     width: 1920px;
     height: 80px;
     bottom: 0px;
@@ -101,6 +114,7 @@ h2{
     top: 100px;
     left: 100px;
     text-align: center;
+    padding-top: 5px;
 }
 
 h3{
@@ -119,8 +133,18 @@ h4{
     text-align: center;
     font-size: 1.05rem;
     top: 30px;
-    left: 50%;
+    left: 48%;
     color:chartreuse;
+}
+
+h5{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 1.05rem;
+    top: 10px;
+    right: 90px;
+    color:gray;
+    padding-top: 10px;
 }
 
 .activity-status{
@@ -130,5 +154,43 @@ h4{
     position: inherit;
     width: 7px;
     top: 58px;
-    left: 49.25%;
+    left: 47%;
+}
+
+.spotify-song{
+    position: absolute;
+    height: 60px;
+    width: 500px;
+    border-radius: 90px;
+    background-color: #4BC0C8;
+    top: 420px;
+    left: 50px;
+}
+
+.chat-bar{
+    display: inline-block;
+    height: 50px;
+    width: 500px;
+    border-radius: 90px;
+    background-color: #000;
+    top: 12px;
+    left: 620px;
+    position: relative;
+}
+
+.send-button{
+    position: relative;
+    display: inline-block;
+    border-radius: 90px;
+    height: 50px;
+    width: 50px;
+    left: 1200px;
+    background-color: #000;
+}
+
+.send-button-img {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 60%;
 }
