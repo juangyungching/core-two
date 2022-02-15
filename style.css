@@ -10,6 +10,7 @@ body{
     top: 0px;
     background: linear-gradient(90deg, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
     padding: 0px;
+    z-index: 2;
     
 }
 
@@ -80,14 +81,22 @@ body{
     right: 50px;
 }
 
-.week4{
+.week4-box{
     position: absolute;
-    height: 60px;
-    width: 500px;
-    border-radius: 90px;
-    background-color: #4BC0C8;
-    top: 340px;
+    top: 360px;
     right: 50px;
+    
+}
+
+.week4-box p{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 2;
+    font-size: 1.15rem;
+    padding-left: 10px;
+    padding-top: 5;
+    font-family: monospace;
 }
 
 .bottom{
