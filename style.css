@@ -50,25 +50,39 @@ body{
     right: 50px;
 } */
 
-.week1{
+
+
+.week1-box{
     position: absolute;
-    /*display: flexbox; ?? */
-    height: 60px;
-    width: 500px;
-    border-radius: 90px;
-    background-color: #ffff;
     top: 100px;
     right: 50px;
 }
 
-.week2{
+.week1-box p{
     position: absolute;
-    height: 60px;
-    width: 500px;
-    border-radius: 90px;
-    background-color: #C779D0;
-    top: 180px;
+    top: 5px;
+    left: 5px;
+    font-size: 1.15rem;
+    padding-left: 10px;
+    padding-top: 5;
+    font-family: monospace;
+}
+
+.week2-box{
+    position: absolute;
+    top: 200px;
     right: 50px;
+}
+
+
+.week2-box p{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 1.15rem;
+    padding-left: 10px;
+    padding-top: 5;
+    font-family: monospace;
 }
 
 .week3{
@@ -81,9 +95,25 @@ body{
     right: 50px;
 }
 
+.week3-box{
+    position: absolute;
+    top: 300px;
+    right: 50px;
+}
+
+.week3-box p{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 1.15rem;
+    padding-left: 10px;
+    padding-top: 5;
+    font-family: monospace;
+}
+
 .week4-box{
     position: absolute;
-    top: 360px;
+    top: 400px;
     right: 50px;
     
 }
@@ -92,7 +122,6 @@ body{
     position: absolute;
     top: 5px;
     left: 5px;
-    z-index: 2;
     font-size: 1.15rem;
     padding-left: 10px;
     padding-top: 5;
@@ -176,17 +205,6 @@ h5{
     left: 50px;
 }
 
-.chat-bar{
-    display: inline-block;
-    height: 50px;
-    width: 500px;
-    border-radius: 90px;
-    background-color: #000;
-    top: 12px;
-    left: 620px;
-    position: relative;
-}
-
 .send-button{
     position: relative;
     display: inline-block;
@@ -202,4 +220,51 @@ h5{
     padding-top: 10px;
     padding-left: 10px;
     height: 60%;
+}
+
+.dropbtn {
+    display: inline-block;
+    height: 50px;
+    width: 500px;
+    border-radius: 90px;
+    background-color: #000;
+    top: 12px;
+    right: 840px;
+    font-size: 16px;
+    border: none;
+}
+ 
+.dropup {
+    display: inline-block;
+    top: 12px;
+    right: 40px;
+}
+  
+.dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropup-content a:hover {
+    background-color: #ddd
+}
+ 
+.dropup:hover .dropup-content {
+    display: block;
+}
+  
+.dropup:hover .dropbtn {
+    background-color: #2980B9;
 }
