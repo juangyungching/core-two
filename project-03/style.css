@@ -1,0 +1,153 @@
+@font-face {
+    font-family:'IBM Bold';
+    src: url(fonts/IBMPlexSans-Bold.woff) format('woff'), url(fonts/IBMPlexSans-Bold.woff2) format('woff2');
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'IBM Regular';
+    src: url(fonts/IBMPlexSans-Regular.woff) format('woff'), url(fonts/IBMPlexSans-Regular.woff2) format('woff2');
+    font-style: normal;
+}
+
+body{
+    padding-left: 250px;
+    padding-top: 150px;
+    background-color: #FCF5EE;
+}
+
+h1{
+    font-family: 'IBM Bold';
+    color: #675968;
+    font-size: 2.7rem;
+    font-weight:lighter;
+    letter-spacing: -1px;
+}
+
+h2{
+    font-family: 'IBM Bold';
+    color: #434343;
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+h3{
+    font-family: 'IBM Bold';
+    color: #434343;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    padding: 5px;
+    border-bottom: 2px solid #CC6658;
+}
+
+p{
+    font-family: 'IBM Regular';
+    font-size: 0.95em;
+    text-align: justify;
+    font-weight: 100;
+    letter-spacing:100%;
+    line-height: 150%;
+}
+
+.content{
+    height: auto;
+    width: 700px;
+}
+
+.author{
+    font-family: 'IBM Regular';
+    color: #434343;
+    font-size: 1rem;
+    font-weight: lighter;
+
+}
+
+blockquote {
+    background: #F6E2DA;
+    border-left: 2px solid #D3715E;
+    height: 100px;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-family: 'IBM Regular';
+}
+
+blockquote:before {
+    color: #D3715E;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
+
+a{
+   background: linear-gradient(270deg, #551545 0%, rgba(0, 0, 0, 0) 100%), #CC6658;
+   -webkit-text-fill-color: transparent; -webkit-background-clip: text;
+
+}
+
+img{
+    width: 35%;
+    border-radius: 10%;
+    height: 40%;
+}
+
+.frenchie-pic{
+    display: inline;
+    float: right;
+    padding: 25px;
+    
+}
+
+span{
+    float: left;
+  line-height: 85%;
+  width: .7em;  
+  font-size: 180%;
+  font-family: 'IBM Regular';
+  background-color: #F6E2DA;
+  padding: 7px;
+  border: solid #D3715E;
+  border-width: 1.75px;
+  margin: 2px;
+}
+
+a{
+    font-family: 'IBM Regular';
+}
+
+.flex-container {
+    font-family: 'IBM Regular';
+    position: relative;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.flex-container > div{
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #F6E2DA;
+    border: 2px solid #D3715E;
+    flex-direction: row;
+    flex: 1 1 1 auto;
+    margin: 0px;
+    padding: 40px 100px 40px 100px;
+    justify-content: space-between;
+}
+
+.flex-container :nth-child(2){
+    position: relative;
+    margin: 0px 10px 0px 10px;
+    top: 30px;
+}
+
+
+/* background-color: #F6E2DA;
+    border: 1px solid #D3715E;*/
