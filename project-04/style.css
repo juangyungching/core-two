@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-color: aquamarine;
+    height: 12%;
+    width: 100%;
+
+}
+
+.logo{
+    background-color: aqua;
+    height: 70%;
+}
+
+nav{
+    background-color:rgb(41, 26, 8);
+    /* center div box*/
+    margin: auto;
+    height: 30%;
+    width: 100%;
+    /* center div box*/
+}
+
+.nav-wrapper{
+    margin: auto;
+    width: 50%;
+    background-color:bisque;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+}
+
+main{
+    margin: auto;
+    width: 75%;
+    height: 88%;
+    background-color: rgb(80, 80, 238);
+    display: flex;
+    flex-direction: row;
+}
+
+.headline{
+    height: 100%;
+    width: 70%;
+    left: 0;
+    background-color: rgb(160, 255, 226);
+    display: flex;
+    flex-direction: column;
+}
+
+.primary{
+    width: 100%;
+    height: 75%;
+    background-color: rgb(207, 209, 56);
+    flex-direction: column;
+    display: flex;
+
+}
+
+.secondary{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(152, 153, 69);
+    display: flex;
+    flex-direction: row;
+}
+
+.aside{
+    height: 100%;
+    right: 0;
+    width: 30%;
+    background-color: rgb(226, 101, 34);
+
+}
+
+.img-grid{
+    background-color: brown;
+    display: flex;
+    flex-grow: 6;
+
+}
+
+
+.headline-left{
+    background-color:rgb(11, 24, 100);
+    left: 0;
+    height: 100%;
+    width: 50%;
+    flex-grow: 1;
+
+
+    
+}
+
+.headline-right{
+    background-color:rgb(50, 56, 90);
+    right:0;
+    height: 100%;
+    width: 50%;
+    flex-grow: 1;
+
+}
+
+
+.img-text{
+    background-color: rgb(213, 110, 110);
+    flex-grow: 1;
+
+}
+
+.popular{
+    display: grid;
+}
+
+.popular-articles :nth-child(1){
+    flex-grow: 2;
+}
+
+
+.popular-articles :nth-child(2 3 4 5){
+    flex-grow: 1;
+    
+}
+
+.category{
+    padding-left: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 20%;
+    color: rgb(106, 106, 106);
+    
+}
+
+.title{
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 5px;
+    letter-spacing: 20%;
+    color: rgb(28, 28, 28);
+    font-weight: bold;
+    
+}
+
+.description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;
+    padding-right: 5px;
+    letter-spacing: 20%;
+    color: rgb(28, 28, 28);
+    
+}
+
+.primary .category{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 20%;
+    color: rgb(106, 106, 106);
+    
+}
+
+.primary .title{
+    font-size: 2rem;
+    padding-left: 10px;
+    padding-right: 5px;
+    letter-spacing: 20%;
+    color: rgb(28, 28, 28);
+    font-weight: bold;
+    
+}
+
+.primary .description{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    padding-right: 5px;
+    letter-spacing: 20%;
+    color: rgb(28, 28, 28);
+    
+}
