@@ -56,6 +56,11 @@ main{
     flex-direction: column;
 }
 
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .primary{
     width: 100%;
     height: 75%;
@@ -108,12 +113,10 @@ img{
 .img-text{
     background-color: white;
     flex-grow: 1;
-    
 
 }
 
 .img-grid{
-
     max-height: 80%;
     flex-grow: 4;
     
