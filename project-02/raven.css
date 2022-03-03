@@ -1,0 +1,148 @@
+body{
+    height: 100%; 
+    overflow: hidden;
+    margin: 24px;
+
+    background: #0d0910;
+    
+}
+
+.blurred-elipse{
+    z-index: 1;
+    position: absolute;
+    width: 220px;
+    height: 400px;
+
+    right: 60px;
+    bottom: -70px;
+
+
+    border-radius: 50%;
+    background: #241C2A;
+    filter: blur(40px);
+}
+
+
+.torso-elipse{
+    z-index: 2;
+    position: fixed;
+    width: 186px;
+    height: 341px;
+
+    top: 55%;
+    left: 65px;
+
+    border-radius: 50%;
+    background: #000000;
+    filter: blur(5px);
+}
+
+.head-elipse{
+    z-index: 2;
+    position: absolute;
+    width: 98px;
+    height: 170px;
+
+    top: 35%;
+    left:105px;
+
+    border-radius: 50%;
+    background: #000000;
+    border: 1px solid #000000;
+    filter: blur(5px);
+}
+
+.leftwing-elipse{
+    z-index: 2;
+    position: absolute;
+
+    width: 118px;
+    height: 267px;
+    top: 335px;
+    left: 34px;
+
+    border-radius: 50%;
+    background: #000000;
+    transform: rotate(-5deg);
+    filter: blur(5px);
+}
+
+
+.rightwing-elipse{
+    z-index: 2;
+    position: absolute;
+
+    width: 118px;
+    height: 267px;
+    top: 335px;
+    right: 34px;
+
+    border-radius: 50%;
+    background: #000000;
+    transform: rotate(5deg);
+    filter: blur(5px);
+}
+
+.left-eye-top{
+    z-index: 2;
+    position: absolute;
+    top: 259px;
+    left: 129px;
+
+    border-bottom: 9px solid #B40101;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    width: 0px;
+    
+    transform: rotate(312deg);
+    filter: blur(0px);
+}
+
+
+.left-eye-bottom{
+    z-index: 2;
+    position: absolute;
+    top: 265px;
+    left: 135px;
+ 
+    border-bottom: 9px solid #B40101;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    width: 0px;
+    
+    transform: rotate(136deg);
+    filter: blur(0px);
+}
+
+
+.right-eye-top{
+    z-index: 2;
+    position: absolute;
+    top: 259px;
+    right: 132px;
+
+    border-bottom: 9px solid #B40101;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    width: 0px;
+    
+    transform: rotate(46deg);
+    filter: blur(0px);
+}
+
+
+.right-eye-bottom{
+    z-index: 2;
+    position: absolute;
+    top: 265px;
+    right: 138px;
+    
+ 
+    border-bottom: 9px solid #B40101;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    width: 0px;
+    
+    transform: rotate(226deg);
+    filter: blur(0px);
+}

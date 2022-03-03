@@ -234,10 +234,16 @@ h5{
     border: none;
 }
  
-.dropup {
+.dropup-studio {
     display: inline-block;
     top: 12px;
     right: 40px;
+}
+
+.dropup-lab {
+    display: inline-block;
+    top: 12px;
+    left: 40px;
 }
   
 .dropup-content {
@@ -261,10 +267,19 @@ h5{
     background-color: #ddd
 }
  
-.dropup:hover .dropup-content {
+.dropup-studio:hover .dropup-content {
     display: block;
 }
   
-.dropup:hover .dropbtn {
+.dropup-studio:hover .dropbtn {
+    background-color: #2980B9;
+}
+
+
+.dropup-lab:hover .dropup-content {
+    display: block;
+}
+  
+.dropup-lab:hover .dropbtn {
     background-color: #2980B9;
 }
