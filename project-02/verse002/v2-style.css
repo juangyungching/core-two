@@ -99,8 +99,15 @@ ul{
 
 ul:nth-child(1){
     color: #9E9393;
+    opacity: 1;
 }
 
 ul:nth-child(2){
-    color: #9e939336 75%;
+    color: #9e939336;
+    opacity: 0.75;
+}
+
+ul:nth-child(3){
+    color: #9e939336;
+    opacity: 0.5;
 }

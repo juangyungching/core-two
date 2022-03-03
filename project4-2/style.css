@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&family=Ultra&display=swap');
+
+header{
+    height: 14%;
+    width: 75%;
+    background-color: beige;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    height: 60%;
+    width: 100%;
+    background-color: beige;
+    text-align: center;
+}
+
+.menu{
+    height: 40%;
+    width: 100%;
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: bold;
+    
+}
+
+.menu-box{
+    padding-top: 10px;
+    width: 15%
+}
+
+
+.parent { 
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(5, 1fr); 
+    grid-column-gap: 3px;
+    grid-row-gap: 3px; 
+
+    height: 86%;
+    width: 75%;
+    
+    justify-content: center;
+    margin: auto;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 4 / 5; 
+    background-color: black;
+} 
+
+.div2 {
+    grid-area: 4 / 1 / 5 / 5;
+    background-color:pink;
+    padding: 10px;
+}
+
+.div3 {
+    grid-area: 1 / 5 / 2 / 6; 
+    background-color:white;
+    padding: 8px;
+    
+    
+} 
+
+button{
+    padding:8px;
+    border: 5px;
+    background-color: #f5eaea;
+    border-radius: 18px;
+    margin-left: 50px;
+    border: 2px solid #9E9393;
+}
+
+p{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.div4 {
+    grid-area: 2 / 5 / 3 / 6; 
+    background-color:blanchedalmond;
+    padding: 5px;
+} 
+
+.div5 {
+    grid-area: 3 / 5 / 4 / 6;
+    background-color:darkorange;
+    padding: 8px;
+} 
+
+.div6 {
+    grid-area: 4 / 5 / 5 / 6;
+    background-color: fuchsia;
+    padding: 8px;
+} 
+
+.div7 {
+    grid-area: 5 / 5 / 6 / 6; 
+    background-color: forestgreen;
+    padding: 8px;
+}
+
+.div8 {
+    grid-area: 5 / 1 / 6 / 3;
+    background-color: aquamarine;
+    padding: 8px;
+} 
+
+.div9 {
+    grid-area: 5 / 3 / 6 / 5; 
+    background-color: aquamarine;
+    padding: 8px;
+} 
+
+
+h3{
+    font-family: 'Ultra', serif;
+    font-size: 2rem;
+    letter-spacing: -0.6;
+    padding-top: 10px;
+}
+
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px; 
+    margin-bottom: 5px;
+}
+
+h6{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.div9 h5{
+    font-size: 1rem;
+}
+
+.div8 h5{
+    font-size: 1rem;
+}
