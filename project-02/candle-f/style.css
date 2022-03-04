@@ -1,0 +1,228 @@
+body{
+    background: #0d0910;
+}
+
+.wax{
+    position: absolute;
+    width: 49px;
+    height: 299px;
+    left: 183px;
+    top: 438px;
+
+    background: linear-gradient(180deg, #ACA8AD 0%, rgba(172, 168, 173, 0) 100%);
+    opacity: 0.42;
+    filter: blur(5px);
+    border-radius: 11px;
+}
+
+.flame1 .flame-1{
+
+    position:absolute;
+    top:0px;
+    bottom:-13px;
+    left:30px;
+    right:0;
+    margin:auto;
+    width:70px;
+    height:70px;
+    background:#FFC736;
+    opacity: 36%;
+    border-radius:0px 50% 50% 50%;
+    -webkit-transform:rotate(41deg) skewY(15deg);
+
+    filter: blur(9px);
+}
+
+.flame1 .flame-2{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    width:70px;
+    height:70px;
+    background:#FF6F07;
+    opacity: 36%;
+    border-radius:0px 50% 50% 50%;
+    -webkit-transform:rotate(36deg) skewY(15deg);
+
+    filter: blur(6px);
+}
+    
+
+.flame1 .flame-3{
+    position:absolute;
+    top:0;
+    bottom:50px;
+    left:0;
+    right:0px;
+    margin:auto;
+    width:70px;
+    height:70px;
+    background:#FF6F07;
+    opacity: 40%;
+    border-radius:0px 50% 50% 50%;
+    -webkit-transform:rotate(36deg) skewY(15deg);
+
+    filter: blur(10px);
+}
+    
+
+
+.flame2 .flame-1{
+    position: absolute;
+    top: 0px;
+    left: 9px;
+    right: 0;
+    bottom: 34px;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background: #FFC736;
+    opacity: 36%;
+    border-radius: 0px 50% 50% 50%;
+    -webkit-transform: rotate(41deg) skewY(15deg);
+    filter: blur(9px);
+
+}
+
+.flame2 .flame-2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background: #FF6F07;
+    opacity: 36%;
+    border-radius: 0px 50% 50% 50%;
+    -webkit-transform: rotate(36deg) skewY(15deg);
+    filter: blur(6px);
+
+}
+
+.flame2 .flame-3{
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    right: 0px;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background: #FF6F07;
+    opacity: 40%;
+    border-radius: 0px 50% 50% 50%;
+    -webkit-transform: rotate(36deg) skewY(15deg);
+    filter: blur(7px);
+}
+
+
+.flame3 .flame-1{
+
+    position:absolute;
+    top: 0px;
+    bottom: 20px;
+    left: -20px;
+    right: 0;
+    margin:auto;
+    width:70px;
+    height:70px;
+    background:#FFC736;
+    opacity: 36%;
+    border-radius:0px 50% 50% 50%;
+    -webkit-transform:rotate(41deg) skewY(15deg);
+
+    filter: blur(9px);
+}
+
+.flame3 .flame-2{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    width:70px;
+    height:70px;
+    background:#FF6F07;
+    opacity: 36%;
+    border-radius:0px 50% 50% 50%;
+    -webkit-transform:rotate(36deg) skewY(15deg);
+
+    filter: blur(6px);
+}
+    
+
+.flame3 .flame-3{
+    position:absolute;
+    top:0;
+    bottom:50px;
+    left:0;
+    right:0px;
+    margin:auto;
+    width:70px;
+    height:70px;
+    background:#FF6F07;
+    opacity: 40%;
+    border-radius:0px 50% 50% 50%;
+    -webkit-transform:rotate(36deg) skewY(15deg);
+
+    filter: blur(10px);
+}
+
+.flame4 .flame-1{
+
+    position:absolute;
+    top: 0px;
+    bottom: -22px;
+    left: -5px;
+    right: 0;
+    margin:auto;
+    width:70px;
+    height:70px;
+    background:#FFC736;
+    opacity: 36%;
+    border-radius:0px 50% 50% 50%;
+    -webkit-transform:rotate(41deg) skewY(15deg);
+
+    filter: blur(9px);
+}
+
+.flame4 .flame-2{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    width:70px;
+    height:70px;
+    background:#FF6F07;
+    opacity: 36%;
+    border-radius:0px 50% 50% 50%;
+    -webkit-transform:rotate(36deg) skewY(15deg);
+
+    filter: blur(6px);
+}
+    
+
+.flame4 .flame-3{
+    position:absolute;
+    top: 0;
+    bottom: 25px;
+    left: 0;
+    right: 5px;
+    margin:auto;
+    width:70px;
+    height:70px;
+    background:#FF6F07;
+    opacity: 40%;
+    border-radius:0px 50% 50% 50%;
+    -webkit-transform:rotate(36deg) skewY(15deg);
+
+    filter: blur(10px);
+}
