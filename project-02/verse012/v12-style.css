@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=IM+Fell+Great+Primer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+body {
+  background: linear-gradient(180deg, #090909 0%, #1a1a1a 100%);
+  margin: 0px;
+}
+
+#container {
+  display: flex; /* establish flex container */
+  flex-direction: column; /* stack flex items vertically */
+  justify-content: center; /* center items vertically, in this case */ /* center items horizontally, in this case */
+}
+
+.narration {
+  padding-top: 210px;
+}
+
+.hide {
+  opacity: 0;
+  transition: 0.3s ease-in-out all;
+}
+
+p {
+  margin: 0;
+  color: #9e9393;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+}
+
+h4 {
+  color: #e9dddd;
+  font-family: "IM FELL English", serif;
+  font-size: 22px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#verse2 h4 {
+  padding-top: 28px;
+}
+
+#verse3 h4 {
+  padding-top: 102px;
+}
+
+#verse4 {
+  padding-top: 210px;
+}
+
+#verse5 {
+  padding-top: 35px;
+}
+
+#verse6 {
+  z-index: 2;
+  padding-top: 35px;
+}
+
+.raven-pop-up {
+  overflow: hidden;
+  background: #0d0910;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: -1;
+  transition: 0.3s ease-in-out all;
+}
+
+.blurred-elipse {
+  z-index: 1;
+  position: absolute;
+  width: 220px;
+  height: 400px;
+
+  right: 60px;
+  bottom: -70px;
+
+  border-radius: 50%;
+  background: #241c2a;
+  filter: blur(40px);
+}
+
+.torso-elipse {
+  z-index: 2;
+  position: fixed;
+  width: 216px;
+  height: 496px;
+  top: 338px;
+  left: 91px;
+  border-radius: 50%;
+  background: #000000;
+  filter: blur(5px);
+}
+
+.head-elipse {
+  z-index: 2;
+  position: absolute;
+  width: 113px;
+  height: 216px;
+  top: 236px;
+  left: 139px;
+  border-radius: 50%;
+  background: #000000;
+  border: 1px solid #000000;
+  filter: blur(5px);
+}
+
+.leftwing-elipse {
+  z-index: 2;
+  position: absolute;
+  width: 128px;
+  height: 308px;
+  top: 371px;
+  left: 42px;
+  border-radius: 50%;
+  background: #000000;
+  transform: rotate(-5deg);
+  filter: blur(5px);
+}
+
+.rightwing-elipse {
+  z-index: 2;
+  position: absolute;
+  width: 136px;
+  height: 289px;
+  top: 381px;
+  right: 46px;
+  border-radius: 50%;
+  background: #000000;
+  transform: rotate(5deg);
+  filter: blur(5px);
+}
+
+.left-eye-top {
+  z-index: 2;
+  position: absolute;
+  top: 295px;
+  left: 166px;
+  border-bottom: 9px solid #b40101;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  width: 0px;
+  transform: rotate(312deg);
+  filter: blur(0px);
+}
+
+.left-eye-bottom {
+  z-index: 2;
+  position: absolute;
+  top: 301px;
+  left: 172px;
+  border-bottom: 9px solid #b40101;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  width: 0px;
+  transform: rotate(136deg);
+  filter: blur(0px);
+}
+
+.right-eye-top {
+  z-index: 2;
+  position: absolute;
+  top: 294px;
+  right: 166px;
+  border-bottom: 9px solid #b40101;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  width: 0px;
+  transform: rotate(46deg);
+  filter: blur(0px);
+}
+
+.right-eye-bottom {
+  z-index: 2;
+  position: absolute;
+  top: 299px;
+  right: 171px;
+  border-bottom: 9px solid #b40101;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  width: 0px;
+  transform: rotate(226deg);
+  filter: blur(0px);
+}

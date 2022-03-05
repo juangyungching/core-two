@@ -6,6 +6,12 @@ html {padding:0; margin:0;}
 body{
   background: linear-gradient(180deg, #090909 0%,#1a1a1a 100%);
   margin:0px;
+
+}
+
+.tap-area{
+    display: block;
+    min-height: 100vh;
 }
 
 #container{
