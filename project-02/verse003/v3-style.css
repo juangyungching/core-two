@@ -6,25 +6,22 @@ html {
   margin: 0;
 }
 
-body {
-  background: linear-gradient(180deg, #090909 0%, #1a1a1a 100%);
-  margin: 0px;
-}
-
 .tap-area {
   display: block;
   min-height: 100vh;
   text-decoration: none;
 }
 
+body {
+  background: linear-gradient(180deg, #090909 0%, #1a1a1a 100%);
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
 #container {
   display: flex; /* establish flex container */
   flex-direction: column; /* stack flex items vertically */
   justify-content: center; /* center items vertically, in this case */ /* center items horizontally, in this case */
-}
-
-.narration {
-  padding-top: 283px;
 }
 
 p {
@@ -45,15 +42,34 @@ h4 {
   letter-spacing: 0.02em;
   text-align: left;
   left: 0;
-  padding-top: 167px;
-  padding-left: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 .verse {
   position: inherit;
-  margin-bottom: 54px;
 }
 
-h4 {
-  padding-top: 167px;
+#verse1 {
+  padding-bottom: 24px;
+}
+
+#verse3 p {
+  text-align: right;
+}
+
+#verse1 .narration {
+  padding-top: 273px; /*use PADDING not MARGINS!*/
+}
+
+#verse3 .narration {
+  padding-top: 133px; /*use PADDING not MARGINS!*/
+}
+
+#verse4 .dialogue {
+  padding-top: 132px; /*use PADDING not MARGINS!*/
+}
+
+#verse5 .dialogue {
+  padding-top: 37px; /*use PADDING not MARGINS!*/
 }
