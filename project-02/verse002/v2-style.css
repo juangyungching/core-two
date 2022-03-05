@@ -1,113 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=IM+Fell+Great+Primer&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=IM+Fell+Great+Primer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap");
 
-html {padding:0; margin:0;}
-
-body{
-    background: linear-gradient(180deg, #090909 0%,#1a1a1a 100%);
-    margin-left: 24px;
-    margin-right: 24px;
-}
-
-#container{
-    display: flex;              /* establish flex container */
-    flex-direction: column;     /* stack flex items vertically */
-    justify-content: center;    /* center items vertically, in this case */     /* center items horizontally, in this case */
-    
-}
-
-.narration{
-    padding-top: 224px;
-}
-
-.dialogue{
-    padding-top: 185px;
-}
-
-p{
+html {
+  padding: 0;
   margin: 0;
-  color: #9E9393;
-  font-family: 'IM Fell Great Primer SC', serif;
+}
+
+body {
+  background: linear-gradient(180deg, #090909 0%, #1a1a1a 100%);
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#container {
+  display: flex; /* establish flex container */
+  flex-direction: column; /* stack flex items vertically */
+  justify-content: center; /* center items vertically, in this case */ /* center items horizontally, in this case */
+}
+
+.narration {
+  padding-top: 224px;
+}
+
+.dialogue {
+  padding-top: 185px;
+}
+
+p {
+  margin: 0;
+  color: #9e9393;
+  font-family: "IM Fell Great Primer SC", serif;
   font-size: 18px;
   line-height: 28px;
   align-items: center;
   text-align: center;
-
 }
 
-#verse4 p{
-    text-align: left;
+#verse4 p {
+  text-align: left;
 }
 
-#verse5 p{
-    text-align: left;
+#verse5 p {
+  text-align: left;
 }
 
-h2{
-    margin: 0;
-    color: #9E9393;
-    font-family: 'IM Fell Great Primer SC', serif;
-    font-size: 26px;
-    line-height: 32px;
-    position: absolute;
+h2 {
+  margin: 0;
+  color: #9e9393;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 26px;
+  line-height: 32px;
+  position: absolute;
 }
 
-
-
-h4{
-    color: #E9DDDD;
-    font-family: 'IM FELL English', serif;
-    font-size: 22px;
-    line-height: 37px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    left: 0;
-    padding-top: 167px;
-    padding-left: 24px;
+h4 {
+  color: #e9dddd;
+  font-family: "IM FELL English", serif;
+  font-size: 22px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  left: 0;
+  padding-top: 167px;
+  padding-left: 24px;
 }
 
-h5{
-    margin: 0;
-    color: #9E9393;
-    font-family: 'IM Fell Great Primer SC', serif;
-    font-size: 22px;
-    line-height: 28px;
-    align-items: center;
-    text-align: center;
+h5 {
+  margin: 0;
+  color: #9e9393;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 22px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
 }
 
-.verse{
-    position: inherit;
-    margin-bottom: 54px;
-   
+.verse {
+  position: inherit;
+  margin-bottom: 54px;
 }
 
-
-
-h4{
-    padding-top: 167px;
-
+h4 {
+  padding-top: 167px;
 }
 
-#verse5{
-    margin-top: 150px;
+#verse5 {
+  margin-top: 150px;
 }
 
-ul{
-    list-style-type:none;
+.lenore {
+  color: #d8c4c436;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 26px;
+  line-height: 32px;
+  position: fixed;
 }
 
-ul:nth-child(1){
-    color: #9E9393;
-    opacity: 1;
+.lenore1 {
+  opacity: 100%;
+  position: inherit;
+  top: 225px;
+  left: 136px;
 }
 
-ul:nth-child(2){
-    color: #9e939336;
-    opacity: 0.75;
+.lenore2 {
+  position: inherit;
+  opacity: 75%;
+  top: 254px;
+  left: 117px;
 }
 
-ul:nth-child(3){
-    color: #9e939336;
-    opacity: 0.5;
+.lenore3 {
+  opacity: 50%;
+  position: inherit;
+  top: 285px;
+  left: 136px;
+}
+
+.lenore4 {
+  position: inherit;
+  opacity: 25%;
+  top: 318px;
+  left: 117px;
+}
+
+.lenore5 {
+  position: inherit;
+  top: 432px;
+  left: 176px;
+}
+
+.lenore6 {
+  position: inherit;
+  opacity: 75%;
+  top: 459px;
+  left: 136px;
+}
+
+.lenore7 {
+  position: inherit;
+  opacity: 50%;
+  top: 491px;
+  left: 176px;
+}
+
+.lenore8 {
+  position: inherit;
+  opacity: 25%;
+  top: 519px;
+  left: 135px;
 }

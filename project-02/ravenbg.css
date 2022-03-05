@@ -1,0 +1,126 @@
+.raven-pop-up {
+  overflow: hidden;
+  background: #0d0910;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: -1;
+  transition: 0.3s ease-in-out all;
+}
+
+.blurred-elipse {
+  z-index: 1;
+  position: absolute;
+  width: 185px;
+  height: 581px;
+  right: 109px;
+  bottom: -56px;
+  border-radius: 50%;
+  background: #241c2a;
+  filter: blur(43px);
+}
+
+.torso-elipse {
+  z-index: 2;
+  position: fixed;
+  width: 216px;
+  height: 496px;
+  top: 338px;
+  left: 91px;
+  border-radius: 50%;
+  background: #000000;
+  filter: blur(5px);
+}
+
+.head-elipse {
+  z-index: 2;
+  position: absolute;
+  width: 113px;
+  height: 216px;
+  top: 236px;
+  left: 139px;
+  border-radius: 50%;
+  background: #000000;
+  border: 1px solid #000000;
+  filter: blur(5px);
+}
+
+.leftwing-elipse {
+  z-index: 2;
+  position: absolute;
+  width: 128px;
+  height: 308px;
+  top: 371px;
+  left: 42px;
+  border-radius: 50%;
+  background: #000000;
+  transform: rotate(-5deg);
+  filter: blur(5px);
+}
+
+.rightwing-elipse {
+  z-index: 2;
+  position: absolute;
+  width: 136px;
+  height: 289px;
+  top: 381px;
+  right: 46px;
+  border-radius: 50%;
+  background: #000000;
+  transform: rotate(5deg);
+  filter: blur(5px);
+}
+
+.left-eye-top {
+  z-index: 2;
+  position: absolute;
+  top: 295px;
+  left: 166px;
+  border-bottom: 9px solid #b40101;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  width: 0px;
+  transform: rotate(312deg);
+  filter: blur(2px);
+}
+
+.left-eye-bottom {
+  z-index: 2;
+  position: absolute;
+  top: 301px;
+  left: 172px;
+  border-bottom: 9px solid #b40101;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  width: 0px;
+  transform: rotate(136deg);
+  filter: blur(2px);
+}
+
+.right-eye-top {
+  z-index: 2;
+  position: absolute;
+  top: 294px;
+  right: 166px;
+  border-bottom: 9px solid #b40101;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  width: 0px;
+  transform: rotate(46deg);
+  filter: blur(2px);
+}
+
+.right-eye-bottom {
+  z-index: 2;
+  position: absolute;
+  top: 299px;
+  right: 171px;
+  border-bottom: 9px solid #b40101;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  width: 0px;
+  transform: rotate(226deg);
+  filter: blur(2px);
+}
