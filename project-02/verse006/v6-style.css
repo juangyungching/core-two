@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=IM+Fell+Great+Primer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap");
+
+/* DONT TOUCH */
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.tap-area {
+  display: block;
+  min-height: 100vh;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(180deg, #090909 0%, #1a1a1a 100%);
+  margin-left: 24px;
+  margin-right: 24px;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#container {
+  display: flex; /* establish flex container */
+  flex-direction: column; /* stack flex items vertically */
+  justify-content: center; /* center items vertically, in this case */ /* center items horizontally, in this case */
+}
+
+p {
+  margin: 0;
+  color: #9e9393;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 18px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
+}
+
+h4 {
+  color: #e9dddd;
+  font-family: "IM FELL English", serif;
+  font-size: 22px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+#verse1 .narration {
+  padding-top: 178px;
+}
+
+#verse2 .dialogue {
+  padding-top: 28px;
+}
+
+#verse2 .dialogue p {
+  text-align: right;
+}
+
+#verse3 .dialogue {
+  padding-top: 24px;
+}
+
+#verse4 .dialogue {
+  padding-top: 217px;
+}
+
+#verse5 .dialogue {
+  padding-top: 37px;
+}
+
+#verse6 .dialogue {
+  padding-top: 37px;
+}
+
+#verse7 {
+  padding-top: 217px;
+}
+
+#verse8 {
+  padding-top: 36px;
+  opacity: 1;
+}
+
+#verse9 {
+  padding-top: 36px;
+}
+
+#verse10 .narration {
+  padding-top: 234px;
+}
+
+#verse11 .narration {
+  padding-top: 24px;
+}
+
+#verse12 .narration {
+  padding-top: 24px;
+}
+
+#verse12 span {
+  font-size: 24px;
+}
+
+.curtain-raven {
+  position: fixed;
+  background-color: #0d0b1b;
+  z-index: 3;
+  min-height: fit-content;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.curtain-topright {
+  position: absolute;
+  width: 435px;
+  height: 453px;
+  left: 302.11px;
+  top: -174px;
+  background: #2d144f;
+  transform: rotate(59.06deg);
+  filter: blur(10px);
+}
+
+.curtain-topleft {
+  position: absolute;
+  width: 435.44px;
+  height: 364.51px;
+  left: -291.11px;
+  top: -117px;
+  background: #2d144f;
+  transform: matrix(-0.51, 0.86, 0.86, 0.51, 0, 0);
+  filter: blur(10px);
+}
+
+.curtain-bottomright {
+  position: absolute;
+  width: 307px;
+  height: 485px;
+  left: 367.3px;
+  top: 328px;
+  background: #2d144f;
+  transform: rotate(21.19deg);
+  filter: blur(10px);
+}
+
+.curtain-bottomleft {
+  position: absolute;
+  width: 444px;
+  height: 628px;
+  left: -373.02px;
+  top: 328px;
+  background: #2d144f;
+  transform: matrix(-0.93, 0.36, 0.36, 0.93, 0, 0);
+  filter: blur(10px);
+}

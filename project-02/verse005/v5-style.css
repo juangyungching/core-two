@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=IM+Fell+Great+Primer&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap");
 
+/* DONT TOUCH */
+
 html {
   padding: 0;
   margin: 0;
-}
-
-body {
-  background: linear-gradient(180deg, #090909 0%, #1a1a1a 100%);
-  margin: 0px;
 }
 
 .tap-area {
@@ -17,14 +14,17 @@ body {
   text-decoration: none;
 }
 
+body {
+  background: linear-gradient(180deg, #090909 0%, #1a1a1a 100%);
+  margin-left: 24px;
+  margin-right: 24px;
+  overflow: hidden;
+}
+
 #container {
   display: flex; /* establish flex container */
   flex-direction: column; /* stack flex items vertically */
   justify-content: center; /* center items vertically, in this case */ /* center items horizontally, in this case */
-}
-
-.narration {
-  padding-top: 283px;
 }
 
 p {
@@ -44,17 +44,44 @@ h4 {
   line-height: 37px;
   letter-spacing: 0.02em;
   text-align: left;
-  left: 0;
-  padding-top: 167px;
-  padding-left: 24px;
   font-weight: normal;
+  left: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.verse {
-  position: inherit;
-  margin-bottom: 54px;
+#verse1 .narration {
+  padding-top: 263px;
 }
 
-h4 {
-  padding-top: 167px;
+#verse2 .narration {
+  padding-top: 24px;
+}
+
+#verse3 .narration {
+  padding-top: 24px;
+}
+
+#verse4 .narration {
+  padding-top: 200px;
+}
+
+#verse5 .dialogue {
+  padding-top: 28px;
+}
+
+#verse6 .narration {
+  padding-top: 28px;
+}
+
+#verse7 .dialogue {
+  padding-top: 28px;
+}
+
+#verse7 .dialogue h4 {
+  text-align: right;
+}
+
+#verse8 .narration {
+  padding-top: 28px;
 }

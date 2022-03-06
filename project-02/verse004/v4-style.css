@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=IM+Fell+Great+Primer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap");
+
+/* DONT TOUCH */
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.tap-area {
+  display: block;
+  min-height: 100vh;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(180deg, #090909 0%, #1a1a1a 100%);
+  margin-left: 24px;
+  margin-right: 24px;
+  overflow: hidden;
+}
+
+#container {
+  display: flex; /* establish flex container */
+  flex-direction: column; /* stack flex items vertically */
+  justify-content: center; /* center items vertically, in this case */ /* center items horizontally, in this case */
+}
+
+p {
+  margin: 0;
+  color: #9e9393;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 18px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
+}
+
+/* DONT TOUCH */
+
+h4 {
+  color: #e9dddd;
+  font-family: "IM FELL English", serif;
+  font-size: 22px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.verse {
+  position: inherit;
+}
+
+#verse1 {
+  padding-bottom: 24px;
+}
+
+#verse1 .narration {
+  padding-top: 150px; /*use PADDING not MARGINS!*/
+}
+
+#verse2 .dialogue {
+  padding-top: 100px; /*use PADDING not MARGINS!*/
+}
+
+#verse2 p {
+  text-align: right;
+}
+
+#verse3 .dialogue {
+  padding-top: 24px; /*use PADDING not MARGINS!*/
+}
+
+#verse4 .dialogue {
+  padding-top: 200px; /*use PADDING not MARGINS!*/
+}
+
+.dialogue span {
+  color: #a9693a;
+  position: absolute;
+  transform: skew(0deg, -30deg) scaleY(1.33333);
+}
+
+.napping {
+  position: relative;
+  top: -16px;
+  right: -13px;
+}
+
+.tapping {
+  position: relative;
+  top: -14px;
+  right: -13px;
+}
+
+#verse5 .dialogue {
+  padding-top: 36px; /*use PADDING not MARGINS!*/
+}
+
+.rapping {
+  position: relative;
+  top: 61px;
+  right: -255px;
+}
+
+#verse6 .narration {
+  padding-top: 36px;
+}
+
+#verse7 {
+  text-align: center;
+  padding-top: 366px;
+}

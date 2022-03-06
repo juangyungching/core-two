@@ -37,7 +37,7 @@
 .head-elipse {
   z-index: 2;
   position: absolute;
-  width: 113px;
+  width: 125px;
   height: 216px;
   top: 236px;
   left: 139px;
@@ -102,9 +102,9 @@
 .right-eye-top {
   z-index: 2;
   position: absolute;
-  top: 294px;
-  right: 166px;
-  border-bottom: 9px solid #b40101;
+  top: 296px;
+  right: 175px;
+  border-bottom: 11px solid #b40101;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
   width: 0px;
@@ -115,9 +115,9 @@
 .right-eye-bottom {
   z-index: 2;
   position: absolute;
-  top: 299px;
-  right: 171px;
-  border-bottom: 9px solid #b40101;
+  top: 303px;
+  right: 182px;
+  border-bottom: 11px solid #b40101;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
   width: 0px;
