@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=IM+Fell+Great+Primer&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap");
 
+/* DONT TOUCH */
 html {
   padding: 0;
   margin: 0;
@@ -17,6 +18,8 @@ body {
   margin-left: 24px;
   margin-right: 24px;
   overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #container {
@@ -41,50 +44,61 @@ h4 {
   font-size: 22px;
   line-height: 37px;
   letter-spacing: 0.02em;
-  text-align: left;
+  text-align: center;
+  font-weight: normal;
   left: 0;
   margin: 0;
   padding: 0;
-  font-weight: normal;
 }
 
-.verse {
-  position: inherit;
+.fade h4 {
+  text-align: left;
 }
 
-#verse1 {
-  padding-bottom: 24px;
+.fade p {
+  text-align: left;
 }
 
-#verse3 p {
-  text-align: right;
+.hide {
+  opacity: 0;
+  transition: 0.3s ease-in-out all;
 }
 
-#verse1 .narration {
-  padding-top: 273px; /*use PADDING not MARGINS!*/
+#verse1 .dialogue {
+  padding-top: 200px;
 }
 
-#verse3 .narration {
-  padding-top: 133px; /*use PADDING not MARGINS!*/
+#verse2 .dialogue {
+  padding-top: 28px;
+}
+
+#verse3 .dialogue {
+  padding-top: 28px;
 }
 
 #verse4 .dialogue {
-  padding-top: 132px; /*use PADDING not MARGINS!*/
+  padding-top: 28px;
+}
+
+#verse4 .dialogue {
+  padding-top: 210px;
 }
 
 #verse5 .dialogue {
-  padding-top: 37px; /*use PADDING not MARGINS!*/
+  padding-top: 28px;
 }
 
-.fade-in {
-  animation: fade-in-text 5s ease-in;
+#verse6 .dialogue {
+  padding-top: 54px;
 }
 
-@keyframes fade-in-text {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 100%;
-  }
+#verse6 .dialogue p {
+  text-align: right;
+}
+
+#verse6 .dialogue h4 {
+  text-align: right;
+  font-size: 28px;
+  line-height: 1.5;
+  color: red;
 }

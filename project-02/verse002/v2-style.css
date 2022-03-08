@@ -85,7 +85,7 @@ h5 {
 
 .verse {
   position: inherit;
-  margin-bottom: 54px;
+  margin-bottom: 28px;
 }
 
 h4 {
@@ -96,12 +96,21 @@ h4 {
   margin-top: 150px;
 }
 
-.lenore {
+.lenore-top {
+  position: fixed;
+  color: #d8c4c436;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.lenore-bottom {
   color: #d8c4c436;
   font-family: "IM Fell Great Primer SC", serif;
   font-size: 26px;
   line-height: 32px;
   position: fixed;
+  top: 200px;
 }
 
 .lenore1 {
@@ -109,6 +118,7 @@ h4 {
   position: inherit;
   top: 225px;
   left: 136px;
+  animation: fade-in-text 2s ease-in;
 }
 
 .lenore2 {
@@ -116,6 +126,7 @@ h4 {
   opacity: 75%;
   top: 254px;
   left: 117px;
+  animation: fade-in-text 2s ease-in;
 }
 
 .lenore3 {
@@ -123,6 +134,7 @@ h4 {
   position: inherit;
   top: 285px;
   left: 136px;
+  animation: fade-in-text 2s ease-in;
 }
 
 .lenore4 {
@@ -130,31 +142,50 @@ h4 {
   opacity: 25%;
   top: 318px;
   left: 117px;
+  animation: fade-in-text 2s ease-in;
 }
 
 .lenore5 {
+  opacity: 100%;
   position: inherit;
-  top: 432px;
-  left: 176px;
+  top: 431px;
+  left: 168px;
+  animation: fade-in-text 2s ease-in;
 }
 
 .lenore6 {
-  position: inherit;
   opacity: 75%;
-  top: 459px;
-  left: 136px;
+  position: inherit;
+  top: 460px;
+  left: 152px;
+  animation: fade-in-text 2s ease-in;
 }
 
 .lenore7 {
-  position: inherit;
   opacity: 50%;
-  top: 491px;
-  left: 176px;
+  position: inherit;
+  top: 493px;
+  left: 168px;
+  animation: fade-in-text 2s ease-in;
 }
 
 .lenore8 {
-  position: inherit;
   opacity: 25%;
-  top: 519px;
-  left: 135px;
+  position: inherit;
+  top: 522px;
+  left: 152px;
+  animation: fade-in-text 2s ease-in;
+}
+
+.fade-in {
+  animation: fade-in-text 0.5s ease-in;
+}
+
+@keyframes fade-in-text {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }

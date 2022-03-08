@@ -116,3 +116,26 @@ h4 {
   text-align: center;
   padding-top: 366px;
 }
+
+#door-open {
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+
+  height: 100vh;
+}
+
+.fade-in {
+  animation: fade-in-text 5s ease-in;
+}
+
+@keyframes fade-in-text {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

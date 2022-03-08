@@ -70,6 +70,7 @@ h4 {
 
 #verse2 .dialogue {
   padding-top: 28px;
+  animation: auto-appear 6s;
 }
 
 #verse3 .dialogue {
@@ -101,4 +102,18 @@ h4 {
   font-size: 28px;
   line-height: 1.5;
   color: red;
+}
+
+.implore-blurr1 {
+  position: fixed;
+  filter: blur(7px);
+  top: 248px;
+  left: 180px;
+}
+
+.implore-blurr2 {
+  position: fixed;
+  filter: blur(7px);
+  top: 349px;
+  left: 202px;
 }

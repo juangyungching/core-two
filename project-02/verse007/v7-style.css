@@ -6,6 +6,7 @@
 html {
   padding: 0;
   margin: 0;
+  background-image: ;
 }
 
 .tap-area {
@@ -74,4 +75,13 @@ h4 {
 
 #verse6 .narration {
   padding-top: 28px;
+}
+
+#candle-bg {
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
 }
