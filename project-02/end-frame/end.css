@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=IM+Fell+Great+Primer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap");
+
+/* DONT TOUCH */
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.tap-area {
+  display: block;
+  min-height: 100vh;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(180deg, #090909 0%, #1a1a1a 100%);
+  margin-left: 24px;
+  margin-right: 24px;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#container {
+  display: flex; /* establish flex container */
+  flex-direction: column; /* stack flex items vertically */
+  justify-content: center; /* center items vertically, in this case */ /* center items horizontally, in this case */
+}
+
+.text {
+  position: absolute;
+  top: 250px;
+  left: 135;
+}
+
+p {
+  margin: 0;
+  color: #c7c6c6;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 18px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
+}
+
+h4 {
+  color: #e9dddd;
+  font-family: "IM FELL English", serif;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+h5 {
+  color: #969292;
+  font-family: "IM FELL English", serif;
+  font-size: 18px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  font-weight: normal;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+button {
+  position: fixed;
+  top: 460px;
+  left: 180px;
+  height: 42px;
+  width: 72px;
+  border: none;
+  background-color: #222121;
+  color: rgb(163, 163, 163);
+  font-family: "IM FELL English", serif;
+}
+
+.fade-in {
+  animation: fade-in-text 3s ease-in;
+}
+
+@keyframes fade-in-text {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
