@@ -35,16 +35,6 @@ p {
   line-height: 28px;
   align-items: center;
   text-align: center;
-  animation: fade-in-text 5s ease-in;
-}
-
-@keyframes fade-in-text {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 100%;
-  }
 }
 
 h4 {
@@ -94,4 +84,17 @@ h4 {
 
 #verse8 .narration {
   padding-top: 28px;
+}
+
+.fade-in {
+  animation: fade-in-text 5s ease-in;
+}
+
+@keyframes fade-in-text {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }

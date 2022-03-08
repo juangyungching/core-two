@@ -91,3 +91,16 @@ h4 {
   font-family: "IM FELL English", serif;
   font-size: 24px;
 }
+
+.fade-in {
+  animation: fade-in-text 5s ease-in;
+}
+
+@keyframes fade-in-text {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

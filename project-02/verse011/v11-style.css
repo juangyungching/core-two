@@ -98,3 +98,16 @@ h4 {
 #verse5 .dialogue p {
   text-align: right;
 }
+
+.fade-in {
+  animation: fade-in-text 5s ease-in;
+}
+
+@keyframes fade-in-text {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

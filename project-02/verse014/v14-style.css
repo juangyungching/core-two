@@ -76,9 +76,26 @@ h4 {
   padding-top: 28px;
 }
 
+#verse6 .narration {
+  padding-top: 28px;
+}
+
 #verse6 .narration h4 {
   text-align: center;
   font-size: 28px;
   line-height: 1.5;
   color: red;
+}
+
+.fade-in {
+  animation: fade-in-text 5s ease-in;
+}
+
+@keyframes fade-in-text {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
