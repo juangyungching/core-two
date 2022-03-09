@@ -31,7 +31,7 @@ body {
 .text {
   position: absolute;
   top: 250px;
-  left: 135;
+  left: 108px;
 }
 
 p {
@@ -71,6 +71,19 @@ h5 {
   margin-bottom: 30px;
 }
 
+.mainmenu {
+  position: absolute;
+  top: 512px;
+  left: 178px;
+  font-size: x-small;
+}
+
+.mainmenu p {
+  font-size: 14px;
+  color: #353333;
+  text-decoration: underline;
+}
+
 button {
   position: fixed;
   top: 460px;
@@ -94,4 +107,8 @@ button {
   100% {
     opacity: 100%;
   }
+}
+
+a {
+  text-decoration: none;
 }
