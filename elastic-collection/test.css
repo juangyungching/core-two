@@ -1,0 +1,13 @@
+body {
+  background-image: url(img/test-bg.jpg);
+  background-position: 99.5%;
+  background-size: contain;
+  margin: 0;
+}
+
+.grid-boxes {
+  width: 75%;
+  height: 70%;
+  text-align: center;
+  background-color: black;
+}

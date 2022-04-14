@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-image: ;
+}
+
+.landing-page {
+  width: 100%;
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.button {
+  position: absolute;
+  top: 2880px;
+  left: 565px;
+}
+
+.button img {
+  width: 75%;
+}
