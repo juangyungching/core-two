@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.background-img img {
+  margin: 0;
+  position: absolute;
+  max-width: 100%;
+  z-index: -5;
+  top: 0;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.top-bar {
+  height: 12%;
+  background-color: #9aff48bb;
+  z-index: 90;
+}
+
+h3 {
+  padding-top: 25px;
+  margin: 0;
+  font-family: "Racing Sans One", cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.manga {
+  height: 109mm;
+  width: 70mm;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+
+  background-image: url(cover-img/jujutsu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.buttons {
+  position: absolute;
+  top: 525px;
+  right: 220px;
+}
+
+.buttons-grid {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  width: 125px;
+}
+
+.home-button {
+  height: 50px;
+  width: 50px;
+  background-image: url(img/return-home.png);
+  background-size: 100%;
+}
+
+.refresh-button {
+  height: 50px;
+  width: 50px;
+  background-image: url(img/refresh.png);
+  background-size: 100%;
+}
+
+/*.logo img {
+  position: fixed;
+  z-index: 99;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 18%;
+}*/
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.book-name {
+  position: fixed;
+  top: 200px;
+  left: 160px;
+}
+
+.book-info {
+  position: fixed;
+  top: 120px;
+  right: 80px;
+}
+
+.book-name img {
+  max-width: 80%;
+}
+
+.book-info img {
+  max-width: 80%;
+}
