@@ -60,19 +60,39 @@ body {
 }
 
 .btn-grids {
-  width: 75%;
-  height: 75%;
   position: relative;
   width: 60%;
   height: 90%;
-  margin-left: auto;
-  margin-right: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.btn-item {
+  height: 100%;
+  width: 100%;
+}
+
+/*.btn-item img {
+  max-width: 90%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-item img:nth-child(1) {
+  background-image: url(img/grey-btn.png) no-repeat;
+  width: 130px;
+  height: 195px;
+}
+
+.btn-item img:nth-child(1) :hover {
+  background: url("img/pink-hover.png") no-repeat;
+}*/
 
 p {
   margin: 0;
