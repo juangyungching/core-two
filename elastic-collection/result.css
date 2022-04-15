@@ -31,6 +31,16 @@ h3 {
   text-decoration: none;
 }
 
+h5 {
+  padding-top: 25px;
+  margin: 0;
+  font-family: "Racing Sans One", cursive;
+  font-size: 1.8rem;
+  text-align: center;
+  text-decoration: none;
+  overflow-wrap: normal;
+}
+
 .manga {
   height: 109mm;
   width: 70mm;
@@ -38,7 +48,7 @@ h3 {
   margin-right: auto;
   margin-top: 80px;
 
-  background-image: url(cover-img/jujutsu.jpg);
+  /* background-image: url(cover-img/jujutsu.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -87,8 +97,11 @@ a {
 .book-name {
   position: fixed;
   top: 200px;
-  left: 160px;
+  left: 170px;
 }
+
+/*.book-title {
+}*/
 
 .book-info {
   position: fixed;
@@ -102,4 +115,24 @@ a {
 
 .book-info img {
   max-width: 80%;
+}
+
+.info-container h5 {
+  font-size: 1.5rem;
+}
+
+.title-container {
+  position: fixed;
+  top: 250px;
+  left: 200px;
+  height: 80px;
+  width: 120px;
+}
+
+.info-container {
+  position: fixed;
+  top: 250px;
+  right: 200px;
+  height: 80px;
+  width: 120px;
 }

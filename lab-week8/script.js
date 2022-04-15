@@ -24,8 +24,8 @@ fetch('https://api.airtable.com/v0/appmI7DNf6ICGvK0p/Table%201',{
 
     });
 
-ask for filter demo
+// ask for filter demo
 
-.filter(album => {  //check or unchecked -> turns into false or true
-    return album.fields.release_year > 1969;
-} 
+// .filter(album => {  //check or unchecked -> turns into false or true
+//     return album.fields.release_year > 1969;
+// } 
