@@ -17,7 +17,7 @@ body {
 
 .grid-boxes {
   position: relative;
-  height: 70%;
+  height: 75%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -33,6 +33,7 @@ body {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  top: 0;
 }
 
 .img-item {
@@ -62,12 +63,13 @@ body {
   height: 25%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 25px;
 }
 
 .btn-grids {
   position: relative;
   width: 60%;
-  height: 90%;
+  height: 40%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
@@ -98,12 +100,30 @@ body {
   width: 188px;
   z-index: 99;
   top: 0;
-  background-color: #c837cb;
+  background-color: #a523a7;
   mix-blend-mode: overlay;
+
+  display: none;
+}
+
+.top-pink-lit-border {
+  position: fixed;
+  height: 471.719px;
+  width: 188px;
+  z-index: 100;
+  top: 0;
+  border: 3px;
+  border-color: #c837cb;
+  background: none;
+
   display: none;
 }
 
 .btn-1:hover .top-pink-lit {
+  display: block;
+}
+
+.btn-1:hover .top-pink-lit-border {
   display: block;
 }
 
@@ -122,6 +142,22 @@ body {
   background-image: url(img/blue-hover.png);
 }
 
+.top-blue-lit {
+  position: fixed;
+  height: 471.719px;
+  width: 188px;
+  z-index: 99;
+  top: 0;
+  background-color: #3aa1c0;
+  mix-blend-mode: overlay;
+
+  display: none;
+}
+
+.btn-2:hover .top-blue-lit {
+  display: block;
+}
+
 .btn-3 {
   display: inline-block;
   position: relative;
@@ -135,6 +171,22 @@ body {
 
 .btn-3:hover {
   background-image: url(img/yellow-hover.png);
+}
+
+.top-yellow-lit {
+  position: fixed;
+  height: 471.719px;
+  width: 188px;
+  z-index: 99;
+  top: 0;
+  background-color: #adaf1e;
+  mix-blend-mode: overlay;
+
+  display: none;
+}
+
+.btn-3:hover .top-yellow-lit {
+  display: block;
 }
 
 .btn-4 {
@@ -152,26 +204,32 @@ body {
   background-image: url(img/green-hover.png);
 }
 
-/*.btn-item img {
-  max-width: 90%;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+.top-green-lit {
+  position: fixed;
+  height: 471.719px;
+  width: 188px;
+  z-index: 99;
+  top: 0;
+  background-color: #488716;
+  mix-blend-mode: overlay;
+
+  display: none;
 }
 
-.btn-item img:nth-child(1) {
-  background-image: url(img/grey-btn.png) no-repeat;
-  width: 130px;
-  height: 195px;
+.btn-4:hover .top-green-lit {
+  display: block;
 }
-
-.btn-item img:nth-child(1) :hover {
-  background: url("img/pink-hover.png") no-repeat;
-}*/
 
 p {
   margin: 0;
   font-family: "Racing Sans One", cursive;
   font-size: 1.7rem;
+  text-align: center;
+}
+
+.btn-item p {
+  margin-top: 12.5%;
+  font-family: "Racing Sans One", cursive;
+  font-size: 1.3rem;
   text-align: center;
 }
