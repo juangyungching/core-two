@@ -77,7 +77,7 @@ body {
   margin-right: auto;
 }
 
-.btn {
+.btn-1 {
   display: inline-block;
   position: relative;
   height: 100%;
@@ -88,19 +88,67 @@ body {
   background-position: center;
 }
 
-.btn:nth-child(1):hover {
+.btn-1:hover {
   background-image: url(img/pink-hover.png);
 }
 
-.btn:nth-child(2):hover {
+.top-pink-lit {
+  position: fixed;
+  height: 471.719px;
+  width: 188px;
+  z-index: 99;
+  top: 0;
+  background-color: #c837cb;
+  mix-blend-mode: overlay;
+  display: none;
+}
+
+.btn-1:hover .top-pink-lit {
+  display: block;
+}
+
+.btn-2 {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url(img/grey-btn.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-2:hover {
   background-image: url(img/blue-hover.png);
 }
 
-.btn:nth-child(3):hover {
-  background-image: url(img/ylw-hover.png);
+.btn-3 {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url(img/grey-btn.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.btn:nth-child(4):hover {
+.btn-3:hover {
+  background-image: url(img/yellow-hover.png);
+}
+
+.btn-4 {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url(img/grey-btn.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-4:hover {
   background-image: url(img/green-hover.png);
 }
 
