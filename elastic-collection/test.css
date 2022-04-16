@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
 
 body {
-  width: 1495px;
-  height: 894px;
+  height: 100%;
   margin: 0;
   overflow: hidden;
 }
 
 .background-img img {
-  position: fixed;
+  position: absolute;
   max-width: 100%;
   z-index: -5;
   top: 0;
@@ -17,27 +16,28 @@ body {
 }
 
 .grid-boxes {
-  top: 0;
   position: fixed;
-  height: 400px;
+  height: 75%;
+  top: 0;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   left: 0;
   right: 0;
 }
 
 .img-grids {
   position: relative;
-  width: 60%;
+  width: 70%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  top: 0;
 }
 
 .img-item {
@@ -47,16 +47,14 @@ body {
 .img-item img {
   object-fit: fill;
   width: 100%;
-  overflow: hidden;
+  overflow: contain;
   z-index: 2;
 }
 
 .btn-panels {
-  height: 20%;
-  position: relative;
+  height: 30%;
+  position: absolute;
   width: 100%;
-  bottom: 0;
-  padding-bottom: 25px;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.377),
     rgba(255, 255, 255, 0.809),
@@ -75,7 +73,7 @@ body {
 .btn-grids {
   position: relative;
   width: 60%;
-  height: 75%;
+  height: 40%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
