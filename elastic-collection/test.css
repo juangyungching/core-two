@@ -28,7 +28,7 @@ body {
 
 .img-grids {
   position: relative;
-  width: 70%;
+  width: 68%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -52,14 +52,19 @@ body {
 }
 
 .btn-panels {
-  height: 30%;
+  height: 25%;
   position: absolute;
+  bottom: 0;
   width: 100%;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.377),
     rgba(255, 255, 255, 0.809),
     rgb(255, 255, 255)
   );
+}
+
+.btn-item {
+  margin: 0;
 }
 
 .question {
@@ -72,12 +77,12 @@ body {
 
 .btn-grids {
   position: relative;
-  width: 60%;
-  height: 40%;
+  width: 70%;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 0px;
+  grid-column-gap: 15px;
   grid-row-gap: 0px;
   margin-left: auto;
   margin-right: auto;
@@ -233,10 +238,13 @@ p {
 }
 
 .btn-item p {
+  bottom: 20px;
   margin-top: 12.5%;
   font-family: "Racing Sans One", cursive;
   font-size: 1.3rem;
   text-align: center;
+  position: FIXED;
+  align-items: center;
 }
 
 .logo img {
