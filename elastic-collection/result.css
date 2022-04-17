@@ -35,7 +35,7 @@ h5 {
   padding-top: 25px;
   margin: 0;
   font-family: "Racing Sans One", cursive;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
   text-decoration: none;
   overflow-wrap: normal;
@@ -117,8 +117,12 @@ a {
   max-width: 80%;
 }
 
+h4 {
+  font-size: 1.3rem;
+}
+
 .info-container h5 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .title-container {
@@ -131,8 +135,13 @@ a {
 
 .info-container {
   position: fixed;
-  top: 250px;
-  right: 200px;
+  top: 160px;
+  right: 215px;
   height: 80px;
   width: 120px;
+}
+
+.artist {
+  position: relative;
+  top: 0px;
 }
