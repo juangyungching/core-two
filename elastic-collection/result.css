@@ -4,6 +4,7 @@ body {
   height: 100%;
   margin: 0;
   overflow: hidden;
+
 }
 
 .background-img img {
@@ -14,12 +15,14 @@ body {
   top: 0;
   background-repeat: no-repeat;
   object-fit: cover;
+  
 }
 
 .top-bar {
   height: 12%;
   background-color: #9aff48bb;
   z-index: 90;
+
 }
 
 h3 {
@@ -29,6 +32,7 @@ h3 {
   font-size: 1.5rem;
   text-align: center;
   text-decoration: none;
+
 }
 
 h5 {
@@ -39,6 +43,7 @@ h5 {
   text-align: center;
   text-decoration: none;
   overflow-wrap: normal;
+
 }
 
 .manga {
@@ -51,12 +56,14 @@ h5 {
   /* background-image: url(cover-img/jujutsu.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .buttons {
   position: absolute;
   top: 525px;
   right: 220px;
+
 }
 
 .buttons-grid {
@@ -65,6 +72,7 @@ h5 {
   grid-template-rows: 1fr;
   grid-column-gap: 30px;
   width: 125px;
+
 }
 
 .home-button {
@@ -72,6 +80,7 @@ h5 {
   width: 50px;
   background-image: url(img/return-home.png);
   background-size: 100%;
+
 }
 
 .refresh-button {
@@ -79,6 +88,7 @@ h5 {
   width: 50px;
   background-image: url(img/refresh.png);
   background-size: 100%;
+
 }
 
 /*.logo img {
@@ -87,17 +97,20 @@ h5 {
   margin-top: 30px;
   margin-left: 30px;
   width: 18%;
+
 }*/
 
 a {
   text-decoration: none;
   color: black;
+
 }
 
 .book-name {
   position: fixed;
   top: 200px;
   left: 170px;
+
 }
 
 /*.book-title {
@@ -107,41 +120,65 @@ a {
   position: fixed;
   top: 120px;
   right: 80px;
+
 }
 
 .book-name img {
   max-width: 80%;
+
 }
 
 .book-info img {
   max-width: 80%;
+
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-family: "Racing Sans One";
+  text-align: center;
+  margin: 0;
+
 }
 
 .info-container h5 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+
 }
 
 .title-container {
   position: fixed;
-  top: 250px;
+  top: 329px;
+  word-spacing: 2%;
+  font-kerning: auto;
   left: 200px;
   height: 80px;
   width: 120px;
+
 }
 
 .info-container {
   position: fixed;
   top: 160px;
-  right: 215px;
-  height: 80px;
-  width: 120px;
+  right: 204px;
+  height: 300px;
+  width: 150px;
+  text-align: center;
+
 }
 
 .artist {
   position: relative;
-  top: 0px;
+  top: 10px;
+  height: 30px;
+
 }
+
+.publishedyear {
+  position: relative;
+  top: 160px;
+  height: 10px;
+
+}
+
+
