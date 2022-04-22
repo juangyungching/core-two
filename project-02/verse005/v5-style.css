@@ -87,7 +87,7 @@ h4 {
 }
 
 .fade-in {
-  animation: fade-in-text 5s ease-in;
+  animation: fade-in-text 2s ease-in;
 }
 
 @keyframes fade-in-text {
