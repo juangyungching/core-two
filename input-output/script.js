@@ -24,6 +24,9 @@ function turnBlack1(event) {
         var element = document.getElementById("line1");
         element.style.color = "#ffffff";
         element.style.backgroundColor = "#000000";
+
+        var apopup = document.getElementById("apopup");
+        element.style.display = block;
        
 
 

@@ -13,10 +13,18 @@ img {
 
 .button {
   position: absolute;
-  top: 2880px;
-  left: 565px;
+  top: 2440px;
+  left: 570px;
 }
 
 .button img {
   width: 75%;
+}
+
+.logo img {
+  position: absolute;
+  z-index: 99;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 18%;
 }

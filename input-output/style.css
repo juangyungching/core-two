@@ -74,3 +74,123 @@ input{
     text-decoration: none;
 
 }
+
+
+.a-pop-ups :nth-child(1){
+    position: fixed;
+    top: 180px;
+    left: 120px;
+    display: none;
+ 
+}
+.a-pop-ups :nth-child(2){
+    position: fixed;
+    top: 210px;
+    left: 90px;
+    display: none;
+ 
+}
+.a-pop-ups :nth-child(3){
+    position: fixed;
+    top: 240px;
+    left: 60px;
+    display: none;
+ 
+}
+.a-pop-ups :nth-child(4){
+    position: fixed;
+    top: 270px;
+    left: 30px;
+    display: none;
+ 
+}
+
+
+.e-pop-ups :nth-child(1){
+    position: fixed;
+    top: 240px;
+    right: 90px;
+    display: none;
+ 
+}
+.e-pop-ups :nth-child(2){
+    position: fixed;
+    top: 270px;
+    right: 130px;
+    display: none;
+ 
+}
+.e-pop-ups :nth-child(3){
+    position: fixed;
+    top: 300px;
+    right: 100px;
+    display: none;
+ 
+}
+.e-pop-ups :nth-child(4){
+    position: fixed;
+    top: 330px;
+    right: 140px;
+    display: none;
+ 
+}
+
+
+.i-pop-ups :nth-child(1){
+    position: fixed;
+    top: 560px;
+    right: 100px;
+    display: none;
+ 
+}
+
+.i-pop-ups :nth-child(2){
+    position: fixed;
+    top: 590px;
+    right: 140px;
+    display: none;
+ 
+}
+.i-pop-ups :nth-child(3){
+    position: fixed;
+    top: 380px;
+    left: 100px;
+    display: none;
+ 
+}
+.i-pop-ups :nth-child(4){
+    position: fixed;
+    top: 410px;
+    left: 140px;
+    display: none;
+ 
+}
+
+.o-pop-ups :nth-child(1){
+    position: fixed;
+    top: 445px;
+    right: 220px;
+    display: none;
+}
+
+.o-pop-ups :nth-child(2){
+    position: fixed;
+    top: 550px;
+    left: 290px;
+    display: none;
+ 
+}
+.o-pop-ups :nth-child(3){
+    position: fixed;
+    top: 380px;
+    left: 100px;
+    display: none;
+ 
+}
+.o-pop-ups :nth-child(4){
+    position: fixed;
+    top: 410px;
+    left: 140px;
+    display: none;
+ 
+}

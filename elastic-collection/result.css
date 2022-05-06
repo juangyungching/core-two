@@ -19,11 +19,24 @@ body {
 }
 
 .top-bar {
+  position: fixed;
   height: 12%;
+  width: 100%;
+  top: 0;
   background-color: #9aff48bb;
   z-index: 90;
 
 }
+
+.logo img {
+  position: fixed;
+  z-index: 99;
+  top: 30px;
+  margin-left: 30px;
+  width: 18%;
+}
+
+
 
 h3 {
   padding-top: 25px;
@@ -47,11 +60,12 @@ h5 {
 }
 
 .manga {
+  position: relative;
   height: 109mm;
   width: 70mm;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  top: 180px;
 
   /* background-image: url(cover-img/jujutsu.jpg); */
   background-repeat: no-repeat;
@@ -75,10 +89,10 @@ h5 {
 
 }
 
-.home-button {
+.cata-button {
   height: 50px;
   width: 50px;
-  background-image: url(img/return-home.png);
+  background-image: url(img/catalogue-icon.png);
   background-size: 100%;
 
 }
@@ -90,15 +104,6 @@ h5 {
   background-size: 100%;
 
 }
-
-/*.logo img {
-  position: fixed;
-  z-index: 99;
-  margin-top: 30px;
-  margin-left: 30px;
-  width: 18%;
-
-}*/
 
 a {
   text-decoration: none;
@@ -112,9 +117,6 @@ a {
   left: 170px;
 
 }
-
-/*.book-title {
-}*/
 
 .book-info {
   position: fixed;
