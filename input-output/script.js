@@ -26,7 +26,7 @@ function turnBlack1(event) {
         element.style.backgroundColor = "#000000";
 
         var apopup = document.getElementById("apopup");
-        element.style.display = block;
+        apopup.first(1).style.display = block;
        
 
 
