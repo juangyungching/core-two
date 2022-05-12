@@ -22,7 +22,7 @@ fetch('https://api.airtable.com/v0/appmI7DNf6ICGvK0p/Table%201', {
 
 console.log({selectedManga});
 
-manga.style.backgroundImage = `url(${selectedManga.fields.ss[0].thumbnails.large.url})`
+manga.style.backgroundImage = `url(${selectedManga.fields.comicCover[0].thumbnails.large.url})`
 
 const bookTitle = document.querySelector('.book-title'); // tell JS about the div we added to our html file so we can put content inside it
 bookTitle.innerHTML = `${selectedManga.fields.manga}`
