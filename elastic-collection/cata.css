@@ -34,7 +34,18 @@ h3 {
   
 }
 
+.filter-panel{
+    margin-left: 4%;
+    height: 800px;
+    width: 16%;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
 .content{
+    right: 0;
+    width: 80%;
+    position: absolute;
     flex-wrap: wrap;
     display: flex;
     gap: 10px;
@@ -44,7 +55,7 @@ h3 {
 .manga{
     background-color: rgb(255, 255, 255);
     width: 220px;
-    height: 320px;
+    height: 360px;
     margin-left: 0;
     margin-right: 0;
 }
@@ -77,11 +88,54 @@ h5{
     margin: 5px;
     font-size: 0.9em;
     text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
 }
 
 h6{
     margin-top: 5px;
+    margin-bottom: 0px;
     font-size: 0.9em;
     text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+h2{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 0.9em;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.dropbtn {
+    background-color: #4eff54;
+    color: #1e4d20;
+    padding: 5px;
+    font-size: 1rem;
+    height: 30px;
+    width: 110px;
+    border: none;
+    cursor: pointer;
+    font-family: "Racing Sans One", cursive;
+}
+  
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    right: 80px;
+    top: 60px;
+
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }

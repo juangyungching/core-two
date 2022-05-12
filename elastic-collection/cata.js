@@ -6,6 +6,11 @@ fetch('https://api.airtable.com/v0/appmI7DNf6ICGvK0p/Table%201', {
   .then(res => res.json()) // tells JS to expect data in json format
   .then(data => {
 
+    data.records.filter(manga => {
+        return manga.publishedYear < 2000
+
+    })
+
     console.log(data); 
     
     const mangaContainer = document.querySelector('.content'); // tell JS about the div we added to our html file so we can put content inside it
@@ -31,6 +36,7 @@ fetch('https://api.airtable.com/v0/appmI7DNf6ICGvK0p/Table%201', {
             <h4>${manga.fields.title}</h4>
             <h5>${manga.fields.artistName}</h5>
             <h6>${manga.fields.publishedYear}</h6>
+            <h2>${manga.fields.style}</h2>
         </div>
 
         `;
