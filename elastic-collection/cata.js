@@ -6,16 +6,23 @@ fetch('https://api.airtable.com/v0/appmI7DNf6ICGvK0p/Table%201', {
   .then(res => res.json()) // tells JS to expect data in json format
   .then(data => {
 
-
-    console.log(data); 
-    
     const mangaContainer = document.querySelector('.content'); // tell JS about the div we added to our html file so we can put content inside it
 
-    data
+
+    let range = 'all';
+
+    function handleDropdown() {  // this function runs every time a new element is selected
+      range = manga.target.field.yearRange // update our instrumentType variable from line 1 with the new value from the dropdown chang event
+      // after updating the new filter condition, then re-run our content generation
+    }
+
+
+
+    data.records
+
       .filter(manga => {
-        return manga.fields.publishedYear < 2000
+        return manga.range === 'all' ? manga : manga.yearRange === range; // if our dropdown is set to all, return evey item, otherwise only return items that match selected instrument type
       })
-      
       .forEach(manga => {
 
         //albumsContainer.innerHTML += `
@@ -34,13 +41,12 @@ fetch('https://api.airtable.com/v0/appmI7DNf6ICGvK0p/Table%201', {
               </div>
               <h4>${manga.fields.title}</h4>
               <h5>${manga.fields.artistName}</h5>
-              <h6>${manga.fields.publishedYear}</h6>
+              <h6>${manga.fields.yearRange}</h6>
               <h2>${manga.fields.style}</h2>
           </div>
           `;
 
+        });
 
 
-
-    });
 });

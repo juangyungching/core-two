@@ -22,13 +22,25 @@
     
     <div class="filter-panel">
         <div class="dropdown">
-            <button class="dropbtn">filter</button>
+            <select name="my-select" id="select" onchange="handleDropdown()">
+                <option selected value="all">All</option>
+                <option value="1989"> be1989</option>
+                <option value="1990-1999">1990-1999</option>
+                <option value="2000-2009">2000-2009</option>
+                <option value="2010-2019">2010-2019</option>
+               
+            </select>
+
             <div class="dropdown-content" style="left:0;">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+
             </div>
           </div>
+
+          <div class="dropdown-container">
+            <label for="my-select">Filter by date</label>
+            
+          </div>
+
 
     </div>
 
