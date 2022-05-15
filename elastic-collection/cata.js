@@ -1,38 +1,29 @@
-fetch('https://api.airtable.com/v0/appmI7DNf6ICGvK0p/Table%201', {
+  fetch('https://api.airtable.com/v0/appmI7DNf6ICGvK0p/Table%201', {
   headers: {
     Authorization: 'Bearer keyYO5CGRG2VDUV0A', // this is your API key, starting with 'key...' found in your Airtable account
   },
-})
+  })
+
   .then(res => res.json()) // tells JS to expect data in json format
   .then(data => {
+    console.log(data);
 
+    let filterValue = 'all';
     const mangaContainer = document.querySelector('.content'); // tell JS about the div we added to our html file so we can put content inside it
-
-
-    let range = 'all';
-
-    function handleDropdown() {  // this function runs every time a new element is selected
-      range = manga.target.field.yearRange // update our instrumentType variable from line 1 with the new value from the dropdown chang event
-      // after updating the new filter condition, then re-run our content generation
-    }
-
+    
+    function generateContent(){
+    
+    mangaContainer.innerHTML = '';
 
 
     data.records
-
       .filter(manga => {
-        return manga.range === 'all' ? manga : manga.yearRange === range; // if our dropdown is set to all, return evey item, otherwise only return items that match selected instrument type
+        return filterValue === 'all' ? manga : manga.fields.yearRange === filterValue; // if our dropdown is set to all, return evey item, otherwise only return items that match selected instrument type
+      })
+      .sort((a, b) => {
+        return a.fields.title- b.fields.title;
       })
       .forEach(manga => {
-
-        //albumsContainer.innerHTML += `
-        //<div class="album">
-        //  <h5>${album.fields.release_year}</h5>  
-        //  <h3>${album.fields.title}</h3>
-        //  <h4>${album.fields.artist}</h4>
-        //  <img src="${album.fields.album_cover[0].thumbnails.large.url}" width='200'/>
-        //</div>
-        //`;
 
           mangaContainer.innerHTML += `
           <div class="manga">
@@ -45,8 +36,24 @@ fetch('https://api.airtable.com/v0/appmI7DNf6ICGvK0p/Table%201', {
               <h2>${manga.fields.style}</h2>
           </div>
           `;
-
         });
+      }
+      
+      generateContent();
+
+document.querySelector('#year-range-filter').addEventListener('change',() => { 
+    filterValue = event.target.value;
+    generateContent();
+
+})
+
+      });
 
 
-});
+
+
+
+   // listen for change event on select dropdown fromHTML
+   //filter.addEventListener('change', () => {
+   //   filterValue = event.target.value; // update filterValue with value from selected option
+    //generateContent(); // after updating filter value, then re-run the content generation to caputre
